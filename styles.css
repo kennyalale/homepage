@@ -1,0 +1,23 @@
+.quote
+{
+background-color: #E5E7EB;
+margin: 0;
+padding: 10%;
+font-size: 36px;
+font-style: light italic;
+color: #1F2937
+}
+
+.thor
+{
+font-weight: bold;
+text-align: end;
+}
+
+.footer
+{
+background-color: #1F2937;
+color: white;
+text-align: center;
+padding: 3%;
+}
