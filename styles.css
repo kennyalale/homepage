@@ -1,3 +1,15 @@
+.header, .footer
+{
+    background-color: #1F2937;
+    color: white;
+}
+
+.header
+{
+    text-align: center;
+    padding: 3%;
+}
+
 .awesome
 {
 text-size: 48px; 
@@ -10,10 +22,24 @@ background-color: #1f2937;
 .random
 {
 display:flex;
-flex-direction: row;
-
 }
 
+
+.blank
+{ 
+    border: #1F2937;
+    padding: 20px;
+    outline: #3882F6;
+    border-color: #3882F6;
+    border-
+}
+
+.rando
+{
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
 
 .quote
 {
@@ -38,14 +64,13 @@ color: white;
 border-radius: 5px;
 padding: 3% 5% 3% 5%;
 margin: 10%;
-
+line-height:1px;
 }
 
 
 .footer
 {
-background-color: #1F2937;
-color: white;
 text-align: center;
 padding: 3%;
+margin: 0px;
 }
