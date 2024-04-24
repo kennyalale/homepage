@@ -7,7 +7,12 @@ background-color: #1f2937;
 
 }
 
+.random
+{
+display:flex;
+flex-direction: row;
 
+}
 
 
 .quote
