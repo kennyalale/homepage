@@ -107,6 +107,7 @@ text-wrap: wrap;
    /* border: 4px solid #3882F6; */
     border-radius:10px;
     max-width:fit-content;
+    font-size: small;
     text-align: center;
 }
 
