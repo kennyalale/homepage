@@ -1,3 +1,22 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.button1
+{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    padding: 5px;
+    border-radius: 10px;
+}
+.button2
+{
+    background-color: #3882F6;
+}
+
 .header, .footer
 {
     background-color: #1F2937;
@@ -10,14 +29,57 @@
     padding: 3%;
 }
 
-.awesome
+
+
+.flexcontainer
+{
+    display:flex;
+    flex: auto;
+    background-color:#1F2937;
+    border: 4px solid brown;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.one
 {
 text-size: 48px; 
-font-weight: bold;
 color: #f9faf8;
 background-color: #1f2937;
-
+margin-left: 13%;
+margin-bottom: 5%;
+margin-top: 5%;
+padding: 2%;
+flex:1;
+border: 4px solid brown;
 }
+
+.two
+{
+    color: #f9faf8;
+    background-color: #434952;
+    border-radius: 15px;
+    text-align: center;
+    padding: 100px 5px 100px 5px;
+    margin-right: 13%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    justify-content: center;
+    align-content: center;
+    flex:1;
+    border: 4px solid brown;
+}
+
+.heading
+{
+    font-size: 48px;
+    font-weight: bold; 
+    color: #f9faf8;
+}
+
+
+
 
 .random
 {
@@ -47,7 +109,8 @@ background-color: #E5E7EB;
 margin: 0;
 padding: 10%;
 font-size: 36px;
-font-style: light italic;
+font-style: italic;
+font-weight: light;
 color: #1F2937
 }
 
