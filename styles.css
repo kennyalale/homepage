@@ -27,17 +27,24 @@
 {
     text-align: center;
     padding: 3%;
-    background-color:lightblue;
-    border: 4px solid red;
+    background-color:#1F2937;
     display: flex;
+    padding-right: 10.5%;
 }
 
 .link
 {
-    border: 4px solid red;
     flex: 1;
+    justify-content: left;
 }
 
+.logo
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 13%;
+    margin-right: 30%;
+}
 
 
 .flexcontainer
